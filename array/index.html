@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <style>
+        body {
+            max-width: 640px;
+            background-color:#232323;
+            color: #ffffff;
+            margin: 5px auto;
+        }
+
+        .submit {
+            text-align: center;
+        }
+
+        .content {
+            height: 360px;
+        }
+
+        #foodies {
+            font-weight: bold;
+            font-size: 1.3rem;
+            color:rgb(35, 199, 190);
+            font-family: sans-serif;
+        }
+
+        .btn {
+            padding:15px 45px;
+            background-color: rgb(222, 72, 72);
+            border: 3px solid #000000;
+            color: #ffffff;
+            margin: 15px auto;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(202, 255, 124);
+            border: 3px solid #ffffff;
+            color: #000000;
+            transition: ease-in 0.5s;
+        }
+    </style>
+    <script src="array.js"></script>
+</head>
+<body onload="daftarArray()">
+    <div class="all">
+        <h1>CONTOH PENERAPAN ARRAY PADA JS</h1> <hr>
+        <div class="content">
+            <p>Daftar makanan dan minuman favorit Anda :</p>
+            <div id="foodies"></div>
+        </div> <hr>
+        <div class="submit">
+            <button class="btn" onclick="addArray()"><b>Add an item</b></button>
+            <button class="btn" onclick="removeArr()"><b>Remove an item</b></button>
+        </div>
+    </div>
+</body>
+</html>
