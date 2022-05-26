@@ -8,9 +8,9 @@ Files available for redistribution and download only for educational purposes. T
 
 | No.     | Assignment | Link |
 |:--------|:----------:|:----:|
-|		1.		|Example Array|	|	
-|		2.		|Interactive Photo Gallery|	|			
-|		3.		|Autocomplete With JavaScript| |		
+|		1.		|Example Array|https://meikotrip.github.io/Interactivity-with-Javascript/array/array.html|	
+|		2.		|Interactive Photo Gallery|https://meikotrip.github.io/Interactivity-with-Javascript/gallery/gallery.html	|			
+|		3.		|Autocomplete With JavaScript|https://meikotrip.github.io/Interactivity-with-Javascript/forms/forms.html |		
 
 ## Author
 
