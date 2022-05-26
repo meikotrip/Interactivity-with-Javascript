@@ -1,1 +1,1 @@
-# Interactivity-with-Javascript
+# Interactivity-with-JavaScript
