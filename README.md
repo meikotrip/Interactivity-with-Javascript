@@ -8,8 +8,9 @@ Files available for redistribution and download only for educational purposes. T
 
 | No.     | Assignment | Link |
 |:--------|:----------:|:----:|
-|		1.		|Interactive Photo Gallery|	|			
-|		2.		|Autocomplete With JavaScript| |		
+|		1.		|Example Array|	|	
+|		2.		|Interactive Photo Gallery|	|			
+|		3.		|Autocomplete With JavaScript| |		
 
 ## Author
 
