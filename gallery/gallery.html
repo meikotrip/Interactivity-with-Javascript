@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY GALLERY</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js"></script>
+</head>
+<body>
+    <div class="titlehead">
+        <h1>IMPLEMENTATION JAVASCRIPT</h1>
+    </div>
+
+    <div class="container">
+        <div id="image">
+            <b>Hover over an image below to display here.</b>
+        </div>
+        <div class="previmg">
+        <!-- Photo 1 -->
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" class="preview" alt="Styling with a Bandana" onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <!-- Photo 2 -->
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" class="preview" alt="With My Boy" onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <!-- Photo 3 -->
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" class="preview" alt="Young Puppy" onmouseover="upDate(this)" onmouseout="unDo()">
+        </div>
+    </div>
+</body>
+</html>

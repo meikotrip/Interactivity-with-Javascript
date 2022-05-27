@@ -1,0 +1,37 @@
+.titlehead {
+    margin: 0px auto;
+    font-family: cursive;
+    width:535px ;
+}
+
+#image{
+    line-height:650px;
+    width: 575px;
+    height: 650px;
+    border:5px solid black;
+    margin:0 auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    font-size: 150%;
+}
+
+.previmg {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.preview{
+    width:100px;
+    border: 7.5px solid black;
+}
+
+img{
+    width:95%;
+}
