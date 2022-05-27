@@ -16,7 +16,7 @@ function removeArr() {
     }
     else {
         var num = prompt("Item nomor berapa yang ingin dihapus ?");
-        foods.splice(num-1, num);
+        foods.splice(num-1, 1);
     }
     document.getElementById("foodies").innerHTML =foods;
 }
