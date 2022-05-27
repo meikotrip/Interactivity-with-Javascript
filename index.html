@@ -33,23 +33,18 @@
             padding: 20px 0px;
             margin:  20px 20px;
         }
-        button a {
+        a button{
             text-decoration: none;
             font-size: 15px;
             font-weight: bold;
             color: #000000;
+            cursor: pointer;
         }
-        button:first-child:hover{
-            background-color: red;
-            transition: ease-in 0.5s;
-        }
-        button:nth-child(2):hover{
-            background-color: yellow;
-            transition: ease-in 0.5s;
-        }
-        button:last-child:hover{
+        a button:hover{
             background-color: green;
+            color: #ffffff;
             transition: ease-in 0.5s;
+            font-weight: bold;
         }
         .container .click {
             text-align: center;
@@ -62,9 +57,9 @@
         <h1 id="title">Interactivity with JavaScript</h1>
         <p id="author">By <a href="https://github.com/meikotrip" target="_blank">Muhamad Meiko Triputra</a></p>
         <div class="click">
-            <button><a href="https://meikotrip.github.io/Interactivity-with-Javascript/array/array.html">Implementation Array of JavaScript</a></button>
-            <button><a href="https://meikotrip.github.io/Interactivity-with-Javascript/gallery/gallery.html">Interactive Photo Gallery</a></button>
-            <button><a href="https://meikotrip.github.io/Interactivity-with-Javascript/forms/forms.html">Autocomplete With JavaScript</a></button>
+            <a href="https://meikotrip.github.io/Interactivity-with-Javascript/array/array.html"><button>Implementation Array of JavaScript</button></a>
+            <a href="https://meikotrip.github.io/Interactivity-with-Javascript/gallery/gallery.html"><button>Interactive Photo Gallery</button></a>
+            <a href="https://meikotrip.github.io/Interactivity-with-Javascript/forms/forms.html"><button>Autocomplete With JavaScript</button></a>
         </div>
     </div>
 </body>
